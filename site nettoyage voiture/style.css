@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'font1';
+    src: url(Anton-Regular.ttf);
+}
+@font-face {
+    font-family: 'font2';
+    src: url(Prompt-SemiBoldItalic.ttf);
+}
+
+body {
+    font-family: 'font2', sans-serif;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    color: #1a2231;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+h1 {
+    font-family: 'font1', sans-serif;
+    font-size: 40px;
+    margin: 10px;
+}
+
+h2 {
+    font-family: 'font1', sans-serif;
+    font-size: 50px;
+    margin: 10px;
+    margin-bottom: 30px ;
+}
+
+h3 {
+    font-family: 'font1', sans-serif;
+    font-size: 30px;
+    margin: 10px;
+}
+
+h4 {
+    font-family: 'font1', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.profile-card {
+    background: white;
+    margin: 40px auto;
+    width: 250px;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.profile-card img {
+    width: 150px;
+    height: 170px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.profile-card h2 {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.profile-card p {
+    color: #555;
+    font-size: 16px;
+}
+
+.offers {
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.offer {
+    background: white;
+    margin: 10px auto;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.offer1{
+    background: white;
+    margin: 60px auto;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.offer img {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: #000000 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.offer1 img {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: #000000 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+footer {
+    background: #333;
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    body {
+        font-size: 16px;
+    }
+
+    .profile-card {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .offer,
+    .offer1 {
+        width: 300px;
+        margin: 20px;
+        flex: 1 1 300px;
+    }
+
+    .offer img,
+    .offer1 img {
+        width: 100%;
+    }
+    h1 {
+        font-size: 90px;
+    }
+
+    h2 {
+        font-size: 70px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+}
